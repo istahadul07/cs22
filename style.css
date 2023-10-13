@@ -1,0 +1,62 @@
+input:checked{
+color: red;
+height: 20px;
+width: 20px;
+}
+input:enabled{
+    background-color: green;
+
+}
+input:disabled{
+    background-color: red;
+}
+input:checked{
+    accent-color: green;
+}
+div p:first-of-type{
+    color: green;
+}
+input:focus{
+    color: blue;
+
+}
+input:in-range{
+    border:2px solid green;
+}
+input:out-of-range{
+    border:2px solid red;
+}
+input:valid{
+    color:pink;
+    border:2px solid green;
+}
+input:invalid{
+    color:red;
+    border:2px solid red;
+}
+div span:last-child{
+    color: blue;
+}
+div p:last-of-type{
+    color:blue;
+}
+.main-box{
+    height: 700px;
+    width: 500px;
+    border:2px solid black;
+}
+.sub-box{
+    height:250px;
+    width: 250px;
+    border: 2px solid goldenrod;
+}
+
+:not(p){
+    color: red;
+}
+div.main-box p:nth-child(2){
+    color:blueviolet;
+}
+
+
+
